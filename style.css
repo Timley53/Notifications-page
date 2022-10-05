@@ -141,7 +141,7 @@
     margin-left: 8rem;
   }
 }
-@media all and (max-width: 375px) {
+@media all and (max-width: 465px) {
   body {
     width: 100%;
     font-family: "Plus Jakarta Sans", sans-serif;
