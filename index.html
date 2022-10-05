@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,800;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./script.js"></script>
+    <title>Notifications-Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="notification--counts">
+          <b>Notifications</b> &nbsp;<span class="count">3</span>
+        </div>
+
+        <button class="mark-all">Mark all read</button>
+      </header>
+
+      <section>
+        <!-- notifications in an unordered list -->
+        <ul class="notification--announcements">
+          <!--  -->
+
+          <li class="notifications unread-notifications">
+            <img
+              src="./images/avatar-mark-webber.webp"
+              class="notification--img"
+              alt="senders's Image"
+            />
+            <div class="notification-details">
+              <div class="details">
+                <a href="" class="names links">Mark Weber</a> reacted to your
+                recent post
+                <a href="#" class="events links"> My first tournament today!</a>
+                <div class="unread"></div>
+              </div>
+              <div class="time">1m ago</div>
+            </div>
+          </li>
+          <!--  -->
+
+          <li class="notifications unread-notifications">
+            <img
+              src="./images/avatar-angela-gray.webp"
+              class="notification--img"
+              alt="senders's Image"
+            />
+            <div class="notification-details">
+              <div class="details">
+                <a href="" class="names links">Angela Gray</a> followed you
+                <span class="unread"> </span>
+              </div>
+              <div class="time">5m ago</div>
+            </div>
+          </li>
+          <!--  -->
+
+          <li class="notifications unread-notifications">
+            <img
+              src="./images/avatar-jacob-thompson.webp"
+              class="notification--img"
+              alt="senders's Image"
+            />
+            <div class="notification-details">
+              <div class="details">
+                <a href="" class="names links">Jacob Thompson</a> has joined
+                your group
+                <a
+                  href="#"
+                  class="events links"
+                  style="color: hsl(219, 85%, 26%)"
+                >
+                  Chess Club</a
+                >
+                <span class="unread"></span>
+              </div>
+              <div class="time">1 day ago</div>
+            </div>
+          </li>
+          <!--  -->
+
+          <li class="notifications">
+            <img
+              src="./images/avatar-rizky-hasanuddin.webp"
+              class="notification--img"
+              alt="senders's Image"
+            />
+            <div class="notification-details">
+              <div class="details">
+                <a href="" class="names links">Ricky Hasanuddin</a> sent you a
+                private message
+
+                <!-- <span class="unread none"></span> -->
+              </div>
+              <div class="time">5 days ago</div>
+              <div class="notification-content">
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and I'm already having lots of fun and
+                improving my game.
+              </div>
+            </div>
+          </li>
+          <!--  -->
+
+          <li class="notifications">
+            <img
+              src="./images/avatar-kimberly-smith.webp"
+              class="notification--img"
+              alt="senders's Image"
+            />
+            <div class="notification-details comments">
+              <div class="details comment-details">
+                <a href="" class="names links">Kimberly Smith&nbsp;</a>
+                Commented on your picture
+
+                <!-- <span class="unread"></span> -->
+              </div>
+              <div class="time">1 week ago</div>
+            </div>
+            <img
+              src="./images/image-chess.webp"
+              class="commented-img"
+              alt="senders's Image"
+            />
+          </li>
+
+          <!--  -->
+
+          <li class="notifications">
+            <img
+              src="./images/avatar-nathan-peterson.webp"
+              class="notification--img"
+              alt="senders's Image"
+            />
+            <div class="notification-details">
+              <div class="details">
+                <a href="" class="names links">Nathan Peterson</a> reacted to
+                your recent post
+                <a href="#" class="events links">
+                  5 end-game strategies to increase your win rate</a
+                >
+              </div>
+              <div class="time">2 weeks ago</div>
+            </div>
+          </li>
+          <!--  -->
+          <li class="notifications">
+            <img
+              src="./images/avatar-anna-kim.webp"
+              class="notification--img"
+              alt="senders's Image"
+            />
+            <div class="notification-details">
+              <div class="details">
+                <a href="" class="names links">Anna Kim</a> left the group
+                <a href="#" class="events links"> Chess Club</a>
+              </div>
+              <div class="time">2 weeks ago</div>
+            </div>
+          </li>
+          <!--  -->
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
